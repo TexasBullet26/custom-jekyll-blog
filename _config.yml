@@ -13,23 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: GIII
+email: lanzertrey@gmail.com
+author: Glenn Lanzer III
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/Chicago
+twitter_username: LanzerGIII
+github_username: TexasBullet26
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,3 +42,43 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+source: .
+destination: _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Permalink for non-collections:
+permalink: pretty
+
+# Pagination:
+paginate: 5
+paginate_path: 'blog/:num'
+
+# Collections:
+collection_dir: my_collections # directory that stores all of the collections into the same place
+collections:
+  posts
+    output: true
+    permalink: /:collection/:name
+  drafts
+  projects
+    output: true
+    permalink: /:collection/:name
+
+# Front-matter Defaults:
+defaults:
+  # Blog:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+      author: 'Glenn Lanzer III'
+  # Projects:
+  - scope:
+      path: 'projects'
+      type: 'pages'
+    values:
+      layout: 'project'
+      category: 'project'
