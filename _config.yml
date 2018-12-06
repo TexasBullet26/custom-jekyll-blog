@@ -25,6 +25,10 @@ url: '' # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/Chicago
 twitter_username: LanzerGIII
 github_username: TexasBullet26
+linkedin_username: glenn-lanzer
+facebook_username: trey.lanzer
+instagram_username: lanzertrey
+freecodecamp_username: TexasBullets26
 
 # Build settings
 markdown: kramdown
