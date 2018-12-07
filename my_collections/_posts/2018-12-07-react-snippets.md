@@ -2,6 +2,7 @@
 layout: post
 title: 'React Snippets'
 categories: react snippets cheatsheets
+id: 1
 ---
 
 `React` is a JavaScript library primarly for building user interfaces.
