@@ -56,17 +56,17 @@ exclude:
 permalink: pretty
 
 # Pagination:
-paginate: 5
-paginate_path: 'blog/:num'
+# paginate: 5
+# paginate_path: 'blog/:num'
 
 # Collections:
 collection_dir: my_collections # directory that stores all of the collections into the same place
 collections:
-  posts
+  posts:
     output: true
     permalink: /:collection/:name
-  drafts
-  projects
+  drafts:
+  projects:
     output: true
     permalink: /:collection/:name
 
