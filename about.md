@@ -4,15 +4,57 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Thank you for taking time out of your day to visit my blog. My name is Glenn Lanzer III and I am a software developer and freelance artist as of now. Currently looking for employment, contact me if you like what you see. I have experience in the following:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- JavaScript
+- React
+- Babel
+- ESLint
+- Gatsby
+- Markdown
+- HTML
+- CSS
+- SCSS
+- Bootstrap
+- Golang
+- Python
+- Jekyll
+- Git
+- GitHub
+- Bash
+- Zsh
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Employment History
 
+### Self-Employed
 
-[jekyll-organization]: https://github.com/jekyll
+**Software Developer** _Freelance_
+_October 2015 - Present_
+Denton, Texas
+
+### Witron Logistics
+
+**Equipment Operator**
+_May 2015 - October 2015_
+Denton, Texas
+
+### Texas Energy Control Products INC
+
+**Automation Technician**
+_May 2009 - May 2015_
+Ft. Worth, Texas
+
+Description:
+
+- Worked and programmed with Scada Systems and PLC's (Programmable Logistic Controllers)
+
+### Brookeshires Grocery
+
+**Grocery Stocker**
+_March 2008 - January 2009_
+Denton, Texas
+
+I have over five years of experience in software development. Feel free to contact me at [lanzertrey@gmail.com](mailto:lanzertrey@gmail.com)
+
+You can find the source code for my other projects on GitHub:
+[GitHub](https://github.com/TexasBullet26)
